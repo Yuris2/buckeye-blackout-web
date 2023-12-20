@@ -1,7 +1,18 @@
 function Menu() {
     return (
-        <div className="Menu">
-        <h1> Buckeye Blackout</h1>
+
+        <div className="Menu"> {/* Parent Function */}
+        <div className = "Title">
+            <h1> Buckeye Blackout</h1>
+        </div>
+
+        <div className="navigationBar">
+            <button> Play Game </button>
+            <button> Stats </button>
+            <button> Credits </button>
+            <button> How to Play </button>
+        </div>
+            
         </div>
     );  
 }
