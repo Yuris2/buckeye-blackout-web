@@ -1,4 +1,4 @@
-import Menu from "./Menu";
+import Menu from "./Game Functions/Menu/Menu";
 
 function App() {
   return (
