@@ -1,4 +1,4 @@
-function Credit () {
+function Credits () {
     return (
         <div className = "Credits">
             <div className = "Title">
@@ -16,4 +16,4 @@ function Credit () {
     )
 }
 
-export default Credit
+export default Credits

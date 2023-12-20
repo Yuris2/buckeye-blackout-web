@@ -1,3 +1,5 @@
+import Credits from "./Credits";
+
 function Menu() {
     return (
 
@@ -9,7 +11,7 @@ function Menu() {
         <div className="navigationBar">
             <button> Play Game </button>
             <button> Stats </button>
-            <button> Credits </button>
+            <button onclick = {Credits}> Credits </button>
             <button> How to Play </button>
         </div>
             
