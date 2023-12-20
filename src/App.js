@@ -1,8 +1,8 @@
+import Menu from "./Menu";
+
 function App() {
   return (
-    <div className="App">
-      <h1> Hello this is my first application</h1>
-    </div>
+    Menu()
   );
 }
 
